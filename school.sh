@@ -1,7 +1,4 @@
 #!/bin/bash
-<<<<<<< HEAD
-=======
-#!/bin/bash
 
 cat Property_Tax_Roll.csv |
 grep "MADISON SCHOOLS" |
@@ -23,4 +20,3 @@ cut -d ',' -f 7 |
         echo "No matching properties found" >&2
     fi
 }
->>>>>>> e09717d (Complete school.sh)
