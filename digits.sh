@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sum = 0
+sum=0
 
 for num in {1000..2000}
 do
@@ -10,4 +10,4 @@ do
     fi
 done
 
-echo #sum
+echo $sum
